@@ -1,0 +1,74 @@
+110022 silly rollbackFailedOptional Finishing
+110023 silly install runPostinstallTopLevelLifecycles
+110024 silly build event-selling-app@0.0.0
+110025 info linkStuff event-selling-app@0.0.0
+110026 silly linkStuff event-selling-app@0.0.0 has D:\20130196\worspace-events as its parent node_modules
+110027 verbose linkBins event-selling-app@0.0.0
+110028 verbose linkMans event-selling-app@0.0.0
+110029 silly install event-selling-app@0.0.0 D:\20130196\worspace-events\event-selling-app\event-selling-app-2b998190
+110030 info lifecycle event-selling-app@0.0.0~install: event-selling-app@0.0.0
+110031 silly lifecycle event-selling-app@0.0.0~install: no script for install, continuing
+110032 silly postinstall event-selling-app@0.0.0 D:\20130196\worspace-events\event-selling-app\event-selling-app-2b998190
+110033 info lifecycle event-selling-app@0.0.0~postinstall: event-selling-app@0.0.0
+110034 silly lifecycle event-selling-app@0.0.0~postinstall: no script for postinstall, continuing
+110035 silly prepublish event-selling-app@0.0.0 D:\20130196\worspace-events\event-selling-app\event-selling-app-2b998190
+110036 info lifecycle event-selling-app@0.0.0~prepublish: event-selling-app@0.0.0
+110037 silly lifecycle event-selling-app@0.0.0~prepublish: no script for prepublish, continuing
+110038 silly runTopLevelLifecycles Finishing
+110039 silly install printInstalled
+110040 warn optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.0.0 (node_modules\chokidar\node_modules\fsevents):
+110041 warn notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.1.1: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+110042 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid OS:    darwin
+110042 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Valid Arch:  any
+110042 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual OS:   win32
+110042 verbose notsup SKIPPING OPTIONAL DEPENDENCY: Actual Arch: x64
+110043 warn optional SKIPPING OPTIONAL DEPENDENCY: node-sass@4.5.2 (node_modules\node-sass):
+110044 warn optional SKIPPING OPTIONAL DEPENDENCY: node-sass@4.5.2 install: `node scripts/install.js`
+110044 warn optional SKIPPING OPTIONAL DEPENDENCY: spawn C:\Program Files\Java\jre1.8.0_66 ENOENT
+110045 verbose optional SKIPPING OPTIONAL DEPENDENCY:
+110045 verbose optional Failed at the node-sass@4.5.2 install script 'node scripts/install.js'.
+110045 verbose optional SKIPPING OPTIONAL DEPENDENCY: Make sure you have the latest version of node.js and npm installed.
+110045 verbose optional SKIPPING OPTIONAL DEPENDENCY: If you do, this is most likely a problem with the node-sass package,
+110045 verbose optional SKIPPING OPTIONAL DEPENDENCY: not with npm itself.
+110045 verbose optional SKIPPING OPTIONAL DEPENDENCY: Tell the author that this fails on your system:
+110045 verbose optional SKIPPING OPTIONAL DEPENDENCY:     node scripts/install.js
+110045 verbose optional SKIPPING OPTIONAL DEPENDENCY: You can get information on how to open an issue for this project with:
+110045 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm bugs node-sass
+110045 verbose optional SKIPPING OPTIONAL DEPENDENCY: Or if that isn't available, you can get their info via:
+110045 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm owner ls node-sass
+110045 verbose optional SKIPPING OPTIONAL DEPENDENCY: There is likely additional logging output above.
+110046 warn optional SKIPPING OPTIONAL DEPENDENCY: node-sass@4.5.2 (node_modules\node-sass):
+110047 warn optional SKIPPING OPTIONAL DEPENDENCY: node-sass@4.5.2 install: `node scripts/install.js`
+110047 warn optional SKIPPING OPTIONAL DEPENDENCY: Exit status -4058
+110048 verbose optional SKIPPING OPTIONAL DEPENDENCY:
+110048 verbose optional Failed at the node-sass@4.5.2 install script 'node scripts/install.js'.
+110048 verbose optional SKIPPING OPTIONAL DEPENDENCY: Make sure you have the latest version of node.js and npm installed.
+110048 verbose optional SKIPPING OPTIONAL DEPENDENCY: If you do, this is most likely a problem with the node-sass package,
+110048 verbose optional SKIPPING OPTIONAL DEPENDENCY: not with npm itself.
+110048 verbose optional SKIPPING OPTIONAL DEPENDENCY: Tell the author that this fails on your system:
+110048 verbose optional SKIPPING OPTIONAL DEPENDENCY:     node scripts/install.js
+110048 verbose optional SKIPPING OPTIONAL DEPENDENCY: You can get information on how to open an issue for this project with:
+110048 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm bugs node-sass
+110048 verbose optional SKIPPING OPTIONAL DEPENDENCY: Or if that isn't available, you can get their info via:
+110048 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm owner ls node-sass
+110048 verbose optional SKIPPING OPTIONAL DEPENDENCY: There is likely additional logging output above.
+110049 verbose stack Error: Callback called more than once.
+110049 verbose stack     at errorHandler (C:\Program Files\nodejs\node_modules\npm\lib\utils\error-handler.js:112:16)
+110049 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:312:7
+110049 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:7:26)
+110049 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:18:7
+110049 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install\and-ignore-errors.js:7:15
+110049 verbose stack     at Function.ls.fromTree (C:\Program Files\nodejs\node_modules\npm\lib\ls.js:112:3)
+110049 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:707:8
+110049 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+110049 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install\deps.js:175:5
+110049 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:7:26)
+110050 verbose cwd D:\20130196\worspace-events\event-selling-app
+110051 error Windows_NT 6.1.7601
+110052 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+110053 error node v6.10.3
+110054 error npm  v3.10.10
+110055 error Callback called more than once.
+110056 error If you need help, you may report this error at:
+110056 error     <https://github.com/npm/npm/issues>
+110057 verbose exit [ 1, true ]
